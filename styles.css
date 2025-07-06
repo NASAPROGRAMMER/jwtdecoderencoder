@@ -1,0 +1,173 @@
+body {
+  background: #0f0f1b; /* TETAP biru tua seperti sebelumnya */
+  color: #b3ffe8; /* Soft neon text */
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #7fffd4; /* Soft neon greenish-blue */
+  letter-spacing: 1px;
+}
+
+.highlight {
+  color: #7fffd4;
+  text-shadow: 0 0 3px rgba(127, 255, 212, 0.4); /* lebih soft */
+}
+
+.subtitle {
+  text-align: justify;
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #ccc;
+  line-height: 1.6;
+}
+.subtitle strong {
+  color: #7fffd4;
+}
+.subtitle em {
+  color: #888;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+textarea,
+input {
+  width: 100%;
+  background-color: #121222;
+  border: 1px solid #00ffc3;
+  color: #c0fff4;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+textarea:focus,
+input:focus {
+  border-color: #00ffe0;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #00ffc3;
+  color: #b0fff0;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #00ffc3;
+  color: #0f0f1b;
+}
+
+pre {
+  background-color: #121222;
+  color: #a6fff3;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  border: 1px solid #00ffc3;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
+
+.status-text {
+  font-size: 1rem;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #b3ffe8;
+}
+
+.status-text::before {
+  content: "🔐 ";
+}
+
+.lang-toggle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lang-toggle button {
+  background: transparent;
+  border: 1px solid #00ffc3;
+  color: #00ffc3;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.lang-toggle button:hover {
+  background: #00ffc3;
+  color: #0f0f1b;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #00ffc3;
+  border: none;
+  color: #0f0f1b;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.copy-btn:hover {
+  background-color: #00e6b0;
+}
+.donate-banner {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  z-index: 1000;
+}
+
+.donate-link {
+  background-color: #00ffc3;
+  color: #0f0f1b;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 195, 0.3);
+}
+
+.donate-link:hover {
+  background-color: #00e6b0;
+  box-shadow: 0 0 14px rgba(0, 255, 195, 0.6);
+}
+
