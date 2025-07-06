@@ -1,6 +1,3 @@
-<p>deployment link</p>
-[Donate via Saweria](http://jwtvault.free.nf/)
-
 <p align="center">
   <img src="jwt.png" width="120" alt="JWT Logo">
 </p>
@@ -70,6 +67,8 @@ jwt-by-ranggaxr/
 
 If you find this tool helpful, consider donating:  
 👉 [Donate via Saweria](https://saweria.co/ranggaxr)
+Deployment link
+[Deployment Link Saweria](http://jwtvault.free.nf/)
 
 ---
 
