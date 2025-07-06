@@ -67,8 +67,9 @@ jwt-by-ranggaxr/
 
 If you find this tool helpful, consider donating:  
 👉 [Donate via Saweria](https://saweria.co/ranggaxr)
-Deployment link
-[Deployment Link Saweria](http://jwtvault.free.nf/)
+
+- Deployment link
+[Deployment Link ](http://jwtvault.free.nf/)
 
 ---
 
