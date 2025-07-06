@@ -1,3 +1,6 @@
+<p>deployment link</p>
+[Donate via Saweria](http://jwtvault.free.nf/)
+
 <p align="center">
   <img src="jwt.png" width="120" alt="JWT Logo">
 </p>
